@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">LISTricks</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="login_btn">login</string>
+    <string name="signup_btn">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="my_shopping_lists">My Shopping Lists</string>
+    <string name="insert_username">Insert User Name:</string>
+    <string name="share">Share</string>
+    <string name="search_hint">Type Product Name…</string>
+    <string name="create_new_list">Create</string>
+    <string name="enter_new_list_name_hint">Enter new list name…</string>
+    <string name="cancel_create_list">Cancel</string>
+    <string name="share_list_header">Share %1$s</string>
+    <string name="login_failed_msg">Login Failed</string>
+    <string name="signup_failed_msg">Sign Up Failed</string>
+    <string name="share_list_failed_msg">Failed to share list</string>
+    <string name="add_list_failed_msg">Failed to create new list</string>
+    <string name="share_list_succeed_msg">Successfully shared the list</string>
+</resources>

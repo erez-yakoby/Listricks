@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/loginFragment">
+
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.listricks.fragments.LoginFragment">
+        <action
+            android:id="@+id/action_loginFragment_to_signupFragment"
+            app:destination="@id/signupFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_listsGalleryFragment"
+            app:destination="@id/ListsGalleryFragment">
+        </action>
+
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/signupFragment"
+        android:name="com.example.listricks.fragments.SignUpFragment">
+        <action
+            android:id="@+id/action_signupFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/ListsGalleryFragment"
+        android:name="com.example.listricks.fragments.ListsGalleryFragment">
+        <action
+            android:id="@+id/action_ListsGalleryFragment_to_SingleListFragment"
+            app:destination="@id/SingleListFragment"/>
+        <action
+            android:id="@+id/action_ListsGalleryFragment_to_AddListFragment"
+            app:destination="@id/AddListFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/SingleListFragment"
+        android:name="com.example.listricks.fragments.SingleListFragment">
+        <action
+            android:id="@+id/action_SingleListFragment_to_ListsGalleryFragment"
+            app:destination="@id/ListsGalleryFragment" />
+
+        <action
+            android:id="@+id/action_SingleListFragment_to_AddProductFragment"
+            app:destination="@id/AddProductsFragment" />
+
+        <action
+            android:id="@+id/action_SingleListFragment_to_ShareListFragment"
+            app:destination="@id/ShareListFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/AddListFragment"
+        android:name="com.example.listricks.fragments.AddListFragment">
+        <action
+            android:id="@+id/action_AddListFragment_to_ListGalleryFragment"
+            app:destination="@id/ListsGalleryFragment"/>
+
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/AddProductsFragment"
+        android:name="com.example.listricks.fragments.AddProductFragment">
+        <action
+            android:id="@+id/action_AddProductsFragment_to_SingleListFragment"
+            app:destination="@id/SingleListFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/ShareListFragment"
+        android:name="com.example.listricks.fragments.ShareListFragment">
+
+        <action
+            android:id="@+id/action_shareListFragment_to_SingleListFragment"
+            app:destination="@id/SingleListFragment" />
+    </fragment>
+
+
+</navigation>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--    general-->
+    <color name="background">#E4E4E4</color>
+
+    <!--    logo-->
+    <color name="app_title_background">#42C691</color>
+    <color name="app_title_font">#FFFFFF</color>
+
+    <!--   app bar -->
+
+    <color name="editText">#A4FAD7</color>
+    <color name="add_list_card">#A4FAD7</color>
+    <color name="editTextHint">#8E8E8E</color>
+    <color name="floating_button">#42C691</color>
+    <color name="rectangle_button">#42C691</color>
+    <color name="menu_option">#A4FAD7</color>
+
+    <!--   recycler product row -->
+    <color name="recycler_product_row_background">#FFFFFF</color>
+
+
+
+</resources>

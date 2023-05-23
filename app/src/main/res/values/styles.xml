@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="white_font">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="edit_text_tv">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/edit_text_round_corners</item>
+
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_margin">6sp</item>
+        <item name="android:padding">15sp</item>
+        <item name="android:paddingStart">30sp</item>
+
+        <item name="android:focusable">true</item>
+        <item name="android:textColorHint">@color/editTextHint</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="menu_bar" parent="white_font">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:paddingStart">20sp</item>
+        <item name="android:paddingTop">30sp</item>
+        <item name="android:paddingBottom">30sp</item>
+        <item name="android:background">@color/app_title_background</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="lists_recycler_view">
+        <item name="android:layout_width">0sp</item>
+        <item name="android:layout_height">0sp</item>
+        <item name="android:paddingTop">5sp</item>
+        <item name="android:background">@color/background</item>
+    </style>
+
+    <style name="add_button">
+        <item name="android:background">@color/floating_button</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">24dp</item>
+        <item name="android:layout_marginBottom">24dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:backgroundTint">@color/floating_button</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+</resources>
