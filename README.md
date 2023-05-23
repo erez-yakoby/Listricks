@@ -1,4 +1,6 @@
 ## Listricks
+**Most of the code is located in [Listricks Folder](https://github.com/erez-yakoby/Listricks/tree/main/app/src/main/java/com/example/listricks)**
+
 Listricks is an Android app for organizing and sharing shopping lists.
 Me and my partner Dor Peleg, created Listricks during an Android App Development course by **Lightricks**.
 
