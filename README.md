@@ -1,4 +1,7 @@
 ## Listricks
+![alt text](https://github.com/erez-yakoby/Listricks/blob/main/screenShots/collage.jpg?raw=true)
+
+
 **Front-End code is located in [Listricks Front-End](https://github.com/erez-yakoby/Listricks/tree/main/app/src/main/java/com/example/listricks).**
 
 **Back-End code is located in [Listricks Back-End](https://github.com/erez-yakoby/Listricks/tree/main/Back%20End).**
